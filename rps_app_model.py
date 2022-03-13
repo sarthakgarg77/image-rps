@@ -61,8 +61,8 @@ def model_output_for_TL (pre_trained_model, last_output):
     return model
 
 
-train_dir = os.path.join('C:/Users/ASUS/Desktop/rps/rps/')
-test_dir = os.path.join('C:/Users/ASUS/Desktop/rps/rps-test-set/')
+train_dir = os.path.join('C:\Users\Sarthak Garg\Desktop\Sem 6\Minor 2\rps')
+test_dir = os.path.join('C:\Users\Sarthak Garg\Desktop\Sem 6\Minor 2\rps-test-set')
 
 train_generator, validation_generator, test_generator = image_gen_w_aug(train_dir, test_dir)
 
