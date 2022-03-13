@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jun 25 04:09:59 2020
-
-@author: ASUS
-"""
-
 from tensorflow.keras.applications.inception_v3 import InceptionV3
 from tensorflow.keras.layers import Flatten, Dense, Dropout
 from tensorflow.keras.models import Model
