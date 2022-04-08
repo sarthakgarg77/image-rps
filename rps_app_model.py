@@ -79,5 +79,5 @@ history_TL = model_TL.fit(
       verbose=1,
       validation_data = validation_generator)
 
-tf.keras.models.save_model(model_TL,'my_model.hdf5')
+tf.keras.models.save_weights(model_TL,'my_model.hdf5')
 
