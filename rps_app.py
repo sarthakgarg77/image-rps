@@ -17,7 +17,7 @@ def import_and_predict(image_data, model):
         
         return prediction
 
-model = tf.keras.models.load_model('my_model.hdf5')
+model = tf.keras.models.load_weights('my_model.hdf5')
 
 st.write("""
          # Rock-Paper-Scissor Hand Sign Prediction
