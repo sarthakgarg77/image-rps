@@ -1,6 +1,6 @@
 import numpy as np
 import streamlit as st
-import tensorflow-cpu as tf
+import tensorflow as tf
 from PIL import Image, ImageOps
 
 def import_and_predict(image_data, model):
