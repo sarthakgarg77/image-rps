@@ -1,6 +1,7 @@
 import numpy as np
 import streamlit as st
 import tensorflow as tf
+import os
 from PIL import Image, ImageOps
 
 def import_and_predict(image_data, model):
