@@ -1,8 +1,7 @@
 import numpy as np
 import streamlit as st
 import tensorflow as tf
-from tensorflow.keras.models import Model
-from keras.models import load_model
+
 from PIL import Image, ImageOps
 
 def import_and_predict(image_data, model):
@@ -19,7 +18,7 @@ def import_and_predict(image_data, model):
         
         return prediction
 
-model = tf.keras.models.load_weights('my_model.hdf5')
+model = tf.keras.models.load_model('my_model.hdf5')
 
 st.write("""
          # Rock-Paper-Scissor Hand Sign Prediction
