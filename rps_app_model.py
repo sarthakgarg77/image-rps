@@ -79,5 +79,5 @@ history_TL = model_TL.fit(
       verbose=1,
       validation_data = validation_generator)
 
-tf.keras.models.save(model_TL,'my_model.hdf5')
+tf.keras.models.save(model_TL,'my_model.h5')
 
