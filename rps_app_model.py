@@ -2,7 +2,7 @@ from tensorflow.keras.applications.inception_v3 import InceptionV3
 from tensorflow.keras.layers import Flatten, Dense, Dropout
 from tensorflow.keras.models import Model
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
-import tensorflow-cpu as tf
+import tensorflow as tf
 import os
 
 def image_gen_w_aug(train_parent_directory, test_parent_directory):
